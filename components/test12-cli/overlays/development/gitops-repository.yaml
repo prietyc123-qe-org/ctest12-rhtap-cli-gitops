@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test12-cli-gitops-repository
+spec:
+  url: https://github.com/prietyc123-qe-org/ctest12-rhtap-cli-gitops
